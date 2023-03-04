@@ -214,13 +214,46 @@
       <div class="container mt-3 contactContent">
         <h1 class="text-center">Contact Me</h1>
         <div class="row mt-4">
-          <div  class="col-lg-6">
-            <!-- Form fields-->
+          <div class="col-lg-6">
+                   <!-- Google map-->
+                   <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;">
+                    <div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                      <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Grand+Rapids,+MI,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                    </div>
+                    <a class="from-embedmap-code" href="https://kbj9qpmy.com/hrn" id="grab-maps-authorization">Hosting Right Now</a>
+                    <style>#gmap-canvas img{max-height:none;max-width:none!important;background:none!important;}
+                    </style>
+                </div>
+            </div> 
             
+            
+            <div  class="col-lg-6">
+            <!-- Form fields-->
+            <form>
+              <input type="text" class="form-control form-control-lg" placeholder="Name">
+              <input type="email" class="form-control mt-3" placeholder="Email">
+              <input type="text" class="form-control mt-3" placeholder="Subject">
+              <div class="mb-3 mt-3">
+                <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+              </div>
+            </form>
+            <button type="button" class="btn btn-success mt-3">Contact Me</button>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Footer section-->
+    <footer id="footer">
+      <div class="container-fluid">
+    <!-- Social media icons-->
+    <div class="social-icons mt-4">
+        <a href="https://www.linkedin.com/in/alex-o-pena-gomez/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.twitch.tv/takeshidead" target="_blank"><i class="fab fa-twitch"></i></a>
+        <a href="https://github.com/TakeshiDead" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    </footer>
 
 
     <!-- load javascript after loading all html content -->
@@ -229,3 +262,4 @@
 
 </body>
 </html>
+
