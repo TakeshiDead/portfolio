@@ -1,3 +1,4 @@
+
 /*Display background color black on navbar scroll*/
 .navbarScroll.navbarDark {
     background-color: black;
@@ -26,9 +27,34 @@
     transform: translate(-50%,50%);
     color: white;
 }
-
+/* Spacing on all sections*/
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
 /* about section image css*/
 .imageAboutPage {
     width: 100%;
 }
 
+/*Social media icons styling*/
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-linkedin:hover,.fa-twitch:hover,.fa-github:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+
+
+/*footer styling*/
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
