@@ -14,10 +14,10 @@
 
 /*text css above hero image*/
 .hero_title {
-    font-size: 4.5rem;
+    font-size: 50pt;
 }
 .hero_desc {
-  font-size: 2rem;  
+  font-size: 24pt;  
 }
 .hero-text {
     text-align: center;
@@ -57,4 +57,13 @@
 #footer {
     background-color: #808080;
     text-align: center;
+}
+
+@media(max-width:300px) {
+    .hero_title {
+        font-size: 20pt;
+    }
+    .hero_desc {
+        font-size: 18pt;
+    }
 }
